@@ -2,11 +2,11 @@ import { Auth, Button, IconCornerDownLeft } from "@supabase/ui";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useCallback, useEffect, useState, VFC } from "react";
-import { EditTitle } from "../components/editTitle";
-import { LayoutWrapper } from "../components/lay-outWrapper";
-import { SubtitleList } from "../components/subtitleList";
-import { Title as TitleType } from "../components/titleList";
-import { client } from "../libs/supabase";
+import { EditTitle } from "src/components/editTitle";
+import { LayoutWrapper } from "src/components/lay-outWrapper";
+import { SubtitleList } from "src/components/subtitleList";
+import { Title as TitleType } from "src/components/titleList";
+import { client } from "src/libs/supabase";
 
 export type subtitle = {
   id: number;

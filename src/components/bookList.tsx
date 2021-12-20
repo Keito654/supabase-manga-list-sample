@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Dispatch, RefObject, SetStateAction, useCallback } from "react";
-import { bookData } from "../pages/api/rakuten";
+import { bookData } from "src/pages/api/rakuten";
 
 type Props = {
   bookList: bookData[];

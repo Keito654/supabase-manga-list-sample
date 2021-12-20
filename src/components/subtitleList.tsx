@@ -1,7 +1,7 @@
-import { AddSubtitle } from "../components/addSubtitle";
-import { SubtitleCard } from "../components/subtitleCard";
-import { Title } from "../components/titleList";
-import { subtitle } from "../pages/title";
+import { AddSubtitle } from "src/components/addSubtitle";
+import { SubtitleCard } from "src/components/subtitleCard";
+import { Title } from "src/components/titleList";
+import { subtitle } from "src/pages/title";
 
 type Props = {
   subtitles: subtitle[];

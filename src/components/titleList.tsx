@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import noImage from "../../public/no_image.png";
+import noImage from "public/no_image.png";
 import React from "react";
-import { AddTitle } from "../components/addTitle";
+import { AddTitle } from "src/components/addTitle";
 
 export type Title = {
   id: number;

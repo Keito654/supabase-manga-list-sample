@@ -3,8 +3,8 @@ import { ChevronUpIcon } from "@heroicons/react/solid";
 import { Button, IconEdit, IconSave, IconTrash2, IconX } from "@supabase/ui";
 import { useRouter } from "next/router";
 import { Fragment, useCallback, useState } from "react";
-import { Title } from "../components/titleList";
-import { client } from "../libs/supabase";
+import { Title } from "src/components/titleList";
+import { client } from "src/libs/supabase";
 
 type Props = {
   title: Title;

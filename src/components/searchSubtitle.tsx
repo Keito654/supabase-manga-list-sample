@@ -3,9 +3,9 @@ import { SearchIcon } from "@heroicons/react/outline";
 import { ChevronUpIcon } from "@heroicons/react/solid";
 import { Dispatch, SetStateAction, useCallback, useRef, useState } from "react";
 import { RingLoader } from "react-spinners";
-import { BookList } from "../components/bookList";
-import { Title } from "../components/titleList";
-import { bookData } from "../pages/api/rakuten";
+import { BookList } from "src/components/bookList";
+import { Title } from "src/components/titleList";
+import { bookData } from "src/pages/api/rakuten";
 
 type Props = {
   title: Title;

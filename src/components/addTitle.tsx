@@ -1,9 +1,9 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Button, IconPlus, IconX } from "@supabase/ui";
 import Image from "next/image";
-import add from "../../public/add.png";
+import add from "public/add.png";
 import { Fragment, useCallback, useState, VFC } from "react";
-import { client } from "../libs/supabase";
+import { client } from "src/libs/supabase";
 
 type props = {
   uuid: string;
