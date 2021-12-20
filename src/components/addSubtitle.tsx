@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Button, IconPlus, IconX } from "@supabase/ui";
 import Image from "next/image";
-import add from "public/add.png";
+import add from "../../public/add.png";
 import { Fragment, useCallback, useState } from "react";
 import { SearchSubtitle } from "../components/searchSubtitle";
 import { Title } from "../components/titleList";

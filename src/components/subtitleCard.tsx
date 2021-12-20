@@ -2,7 +2,7 @@ import { Dialog, Disclosure, Transition } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/solid";
 import { Button, IconSave, IconTrash2, IconX } from "@supabase/ui";
 import Image from "next/image";
-import noImage from "public/no_image.png";
+import noImage from "../../public/no_image.png";
 import { Fragment, useCallback, useState } from "react";
 import { Title } from "../components/titleList";
 import { client } from "../libs/supabase";
